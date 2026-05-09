@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+{% include base_path %}
+
+My research develops AI and machine learning methods for understanding complex spatial-temporal systems, with a particular focus on urban environments. I work on models that combine data-driven learning with domain knowledge, geospatial context, and interpretable outputs so predictions are not only accurate, but useful for real-world decision-making.
+
+This work sits at the intersection of spatial-temporal learning, urban event forecasting, remote sensing, large language models, and explainable AI. Across these areas, I am interested in how models can adapt to changing environments, incorporate contextual knowledge, and communicate uncertainty and reasoning to the people who rely on them.
+
+{% for post in site.research %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
