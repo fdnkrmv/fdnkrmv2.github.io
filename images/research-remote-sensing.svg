@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Remote sensing illustration</title>
+  <desc id="desc">A satellite observing a stylised landscape.</desc>
+  <rect width="900" height="500" fill="#eef8f4"/>
+  <path d="M0 360c150-90 270-70 390-35 170 50 290 20 510-90v265H0z" fill="#7fb069"/>
+  <path d="M0 410c190-60 310-50 460-15 140 32 270 20 440-50v155H0z" fill="#3f8f6b"/>
+  <g transform="translate(520 80) rotate(-22)">
+    <rect x="0" y="35" width="125" height="70" rx="12" fill="#2f5f8f"/>
+    <rect x="-95" y="45" width="80" height="50" rx="5" fill="#91c7e8"/>
+    <rect x="140" y="45" width="80" height="50" rx="5" fill="#91c7e8"/>
+    <circle cx="63" cy="70" r="18" fill="#f4f7fb"/>
+  </g>
+  <path d="M590 190 440 305M640 185 540 330M690 180 650 310" stroke="#f59e0b" stroke-width="5" stroke-dasharray="10 12" opacity="0.8"/>
+  <text x="85" y="115" fill="#1f2937" font-family="Arial, sans-serif" font-size="38" font-weight="700">Remote Sensing</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Large language models illustration</title>
+  <desc id="desc">Connected document and model nodes representing retrieval augmented generation.</desc>
+  <rect width="900" height="500" fill="#f4f4fb"/>
+  <g fill="#ffffff" stroke="#2f5f8f" stroke-width="5">
+    <rect x="95" y="95" width="180" height="230" rx="16"/>
+    <rect x="625" y="95" width="180" height="230" rx="16"/>
+  </g>
+  <g stroke="#94a3b8" stroke-width="8" stroke-linecap="round">
+    <path d="M135 155h100M135 200h100M135 245h70"/>
+    <path d="M665 155h100M665 200h100M665 245h70"/>
+  </g>
+  <circle cx="450" cy="235" r="105" fill="#2f5f8f"/>
+  <g fill="#f4f7fb">
+    <circle cx="410" cy="215" r="13"/>
+    <circle cx="490" cy="215" r="13"/>
+    <path d="M405 265c28 20 62 20 90 0" fill="none" stroke="#f4f7fb" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <path d="M280 210h55M565 210h55" stroke="#d97706" stroke-width="10" stroke-linecap="round"/>
+  <text x="280" y="420" fill="#1f2937" font-family="Arial, sans-serif" font-size="36" font-weight="700">Grounded Language Models</text>
+</svg>

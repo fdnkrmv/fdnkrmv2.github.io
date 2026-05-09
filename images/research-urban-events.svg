@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Urban event forecasting illustration</title>
+  <desc id="desc">City blocks with event markers and a forecast arrow.</desc>
+  <rect width="900" height="500" fill="#f7f2ec"/>
+  <g fill="#2f5f8f" opacity="0.9">
+    <rect x="110" y="205" width="95" height="195"/>
+    <rect x="235" y="145" width="105" height="255"/>
+    <rect x="370" y="245" width="90" height="155"/>
+    <rect x="500" y="175" width="110" height="225"/>
+    <rect x="645" y="225" width="95" height="175"/>
+  </g>
+  <g fill="#f4f7fb" opacity="0.9">
+    <rect x="130" y="230" width="20" height="25"/><rect x="165" y="230" width="20" height="25"/>
+    <rect x="260" y="175" width="22" height="28"/><rect x="300" y="175" width="22" height="28"/>
+    <rect x="525" y="205" width="24" height="28"/><rect x="565" y="205" width="24" height="28"/>
+  </g>
+  <g fill="#d97706">
+    <circle cx="285" cy="120" r="16"/>
+    <circle cx="555" cy="150" r="16"/>
+    <circle cx="690" cy="205" r="16"/>
+  </g>
+  <path d="M160 105c170-70 340-60 555 40" fill="none" stroke="#1f2937" stroke-width="8" stroke-linecap="round"/>
+  <path d="M715 145l-42-8 25-34z" fill="#1f2937"/>
+  <text x="110" y="460" fill="#1f2937" font-family="Arial, sans-serif" font-size="34" font-weight="700">Urban Event Forecasting</text>
+</svg>

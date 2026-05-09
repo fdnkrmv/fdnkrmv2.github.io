@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Spatial-temporal learning illustration</title>
+  <desc id="desc">A grid map connected to a time series line.</desc>
+  <rect width="900" height="500" fill="#f4f7fb"/>
+  <g fill="none" stroke="#2f5f8f" stroke-width="4" opacity="0.45">
+    <path d="M120 90h360v280H120z"/>
+    <path d="M210 90v280M300 90v280M390 90v280M120 160h360M120 230h360M120 300h360"/>
+  </g>
+  <g fill="#2f5f8f">
+    <circle cx="210" cy="160" r="12"/>
+    <circle cx="390" cy="230" r="12"/>
+    <circle cx="300" cy="300" r="12"/>
+  </g>
+  <path d="M545 330c45-110 82-150 122-120 41 30 68 12 106-85" fill="none" stroke="#d97706" stroke-width="12" stroke-linecap="round"/>
+  <g fill="#1f2937" font-family="Arial, sans-serif">
+    <text x="120" y="430" font-size="34" font-weight="700">Space</text>
+    <text x="545" y="430" font-size="34" font-weight="700">Time</text>
+  </g>
+</svg>

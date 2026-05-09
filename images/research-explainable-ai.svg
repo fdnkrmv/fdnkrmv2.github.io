@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Explainable AI illustration</title>
+  <desc id="desc">A model diagram with transparent decision paths.</desc>
+  <rect width="900" height="500" fill="#f8f6ef"/>
+  <g stroke="#2f5f8f" stroke-width="6" fill="#ffffff">
+    <circle cx="180" cy="155" r="34"/>
+    <circle cx="180" cy="250" r="34"/>
+    <circle cx="180" cy="345" r="34"/>
+    <circle cx="420" cy="200" r="40"/>
+    <circle cx="420" cy="305" r="40"/>
+    <circle cx="680" cy="250" r="48"/>
+  </g>
+  <g stroke="#94a3b8" stroke-width="6" opacity="0.9">
+    <path d="M214 155l166 45M214 250l166-50M214 250l166 55M214 345l166-40M460 200l174 50M460 305l174-55"/>
+  </g>
+  <path d="M160 430h580" stroke="#d97706" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#d97706">
+    <circle cx="260" cy="430" r="12"/>
+    <circle cx="420" cy="430" r="12"/>
+    <circle cx="590" cy="430" r="12"/>
+  </g>
+  <text x="275" y="92" fill="#1f2937" font-family="Arial, sans-serif" font-size="38" font-weight="700">Explainable AI</text>
+</svg>
