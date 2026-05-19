@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="t2 d2">
+  <title id="t2">Semantic event-aware spatial-temporal forecasting framework</title>
+  <desc id="d2">A diagram showing semantic event signals and spatial-temporal context combined for crime forecasting.</desc>
+  <rect width="960" height="420" fill="#f7f5fb"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#3a1f5f">
+    <g stroke="#6a3fa0" stroke-width="2" fill="#ffffff">
+      <rect x="40" y="80" width="200" height="70" rx="10"/>
+      <rect x="40" y="200" width="200" height="70" rx="10"/>
+      <rect x="330" y="140" width="220" height="90" rx="12" fill="#e8dcf5"/>
+      <rect x="640" y="140" width="280" height="90" rx="12"/>
+    </g>
+    <text x="140" y="120" text-anchor="middle">Semantic event signals</text>
+    <text x="140" y="240" text-anchor="middle">Spatial-temporal context</text>
+    <text x="440" y="180" text-anchor="middle" font-weight="bold">Event-aware</text>
+    <text x="440" y="205" text-anchor="middle" font-weight="bold">encoder</text>
+    <text x="780" y="180" text-anchor="middle" font-weight="bold">Crime forecasting</text>
+    <text x="780" y="205" text-anchor="middle">predictor</text>
+    <g stroke="#6a3fa0" stroke-width="2" fill="none" marker-end="url(#arr2)">
+      <path d="M240 115 L330 165"/>
+      <path d="M240 235 L330 205"/>
+      <path d="M550 185 L640 185"/>
+    </g>
+    <defs>
+      <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M0 0 L10 5 L0 10 z" fill="#6a3fa0"/>
+      </marker>
+    </defs>
+    <text x="480" y="50" text-anchor="middle" font-size="18" font-weight="bold">Paper 2  Framework overview</text>
+    <text x="480" y="380" text-anchor="middle" font-size="13" fill="#6b5a80">Placeholder figure  replace with final framework diagram.</text>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Knowledge-guided hypernetwork framework</title>
+  <desc id="d1">A diagram showing crime data and domain knowledge feeding a hypernetwork that generates parameters for a universal predictor.</desc>
+  <rect width="960" height="420" fill="#f4f7fb"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f3a5f">
+    <g stroke="#2f5f8f" stroke-width="2" fill="#ffffff">
+      <rect x="40" y="80" width="180" height="70" rx="10"/>
+      <rect x="40" y="200" width="180" height="70" rx="10"/>
+      <rect x="320" y="140" width="220" height="90" rx="12" fill="#dde8f5"/>
+      <rect x="640" y="80" width="200" height="70" rx="10"/>
+      <rect x="640" y="200" width="200" height="70" rx="10"/>
+    </g>
+    <text x="130" y="120" text-anchor="middle">Crime &amp; urban data</text>
+    <text x="130" y="240" text-anchor="middle">Domain knowledge</text>
+    <text x="430" y="180" text-anchor="middle" font-weight="bold">Knowledge-guided</text>
+    <text x="430" y="205" text-anchor="middle" font-weight="bold">hypernetwork</text>
+    <text x="740" y="120" text-anchor="middle">Universal predictor</text>
+    <text x="740" y="240" text-anchor="middle">Cross-context forecasts</text>
+    <g stroke="#2f5f8f" stroke-width="2" fill="none" marker-end="url(#arr1)">
+      <path d="M220 115 L320 165"/>
+      <path d="M220 235 L320 205"/>
+      <path d="M540 165 L640 115"/>
+      <path d="M540 205 L640 235"/>
+    </g>
+    <defs>
+      <marker id="arr1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M0 0 L10 5 L0 10 z" fill="#2f5f8f"/>
+      </marker>
+    </defs>
+    <text x="480" y="50" text-anchor="middle" font-size="18" font-weight="bold">Paper 1  Framework overview</text>
+    <text x="480" y="380" text-anchor="middle" font-size="13" fill="#5a6b80">Placeholder figure  replace with final framework diagram.</text>
+  </g>
+</svg>

@@ -35,7 +35,12 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% assign teaching_end = page.end_year | default: "present" %}
+          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}–{{ teaching_end }} </p>
+        {% elsif page.collection == 'publications' and page.category == 'under-review' %}
+          <p>Under review at <i>{{ page.venue }}</i></p>
+        {% elsif page.collection == 'publications' and page.category == 'in-progress' %}
+          <p><i>{{ page.venue }}</i></p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

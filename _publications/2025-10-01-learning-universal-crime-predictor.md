@@ -7,6 +7,8 @@ excerpt: "A knowledge-guided hypernetwork approach for learning a universal crim
 date: 2025-10-01
 venue: "ECAI 2025"
 paperurl: "https://doi.org/10.3233/FAIA251027"
+framework_image: "paper1_framework.svg"
+framework_caption: "Framework overview for the knowledge-guided hypernetwork crime predictor."
 citation: "Karimova, F., Chen, T., Yang, Y., &amp; Sadiq, S. (2025). &quot;Learning a universal crime predictor with knowledge-guided hypernetworks.&quot; <i>ECAI 2025</i>. https://doi.org/10.3233/FAIA251027"
 ---
 

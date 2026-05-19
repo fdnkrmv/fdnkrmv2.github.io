@@ -9,7 +9,7 @@ redirect_from:
 
 I am a final-year PhD researcher at The University of Queensland working across artificial intelligence, machine learning, and spatial-temporal data science. My research focuses on context-aware prediction in complex urban environments, including crime and urban event forecasting, knowledge-guided learning, remote sensing, and explainable AI.
 
-Alongside my doctoral research, I work as a Data Scientist and AI Engineer at Queensland Police Service, where I build production tools, analytical workflows, and decision-support systems for operational use. My work spans the full data science lifecycle: modelling, pipeline engineering, dashboarding, evaluation, and communicating results to both technical and non-technical audiences.
+Alongside my doctoral research, I work at Queensland Police Service for my Industry Placement, where I build production tools, analytical workflows, and decision-support systems for operational use on crime data. My work spans the full data science lifecycle: modelling, pipeline engineering, dashboarding, evaluation, and communicating results to both technical and non-technical audiences.
 
 I have experience across law enforcement, energy, and academia, with a consistent interest in translating complex data into clear, actionable outcomes. I am especially interested in models that combine statistical learning with domain knowledge, geospatial context, and interpretable outputs.
 

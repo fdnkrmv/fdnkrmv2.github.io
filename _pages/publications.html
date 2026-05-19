@@ -11,19 +11,50 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
+      {% if post.category != category[0] %}{% continue %}{% endif %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+
+      <div class="list__item">
+        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+          <h3 class="archive__item-title" itemprop="headline">{{ post.title }}</h3>
+
+          {% if post.category == 'published' %}
+            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+          {% elsif post.category == 'under-review' %}
+            <p>Under review at <i>{{ post.venue }}</i></p>
+          {% elsif post.category == 'in-progress' %}
+            <p><i>{{ post.venue }}</i></p>
+          {% endif %}
+
+          {% if post.content and post.content != "" %}
+            <div class="archive__item-body" itemprop="description">{{ post.content }}</div>
+          {% elsif post.excerpt %}
+            <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          {% endif %}
+
+          {% if post.framework_image %}
+            <figure class="archive__item-figure">
+              <img src="{{ post.framework_image | prepend: '/images/' | prepend: base_path }}" alt="Framework figure for {{ post.title }}">
+              {% if post.framework_caption %}<figcaption>{{ post.framework_caption }}</figcaption>{% endif %}
+            </figure>
+          {% endif %}
+
+          {% if post.citation %}
+            <p><small>Citation: {{ post.citation }}</small></p>
+          {% endif %}
+
+          {% if post.paperurl %}
+            <p><a href="{{ post.paperurl }}">Download Paper</a></p>
+          {% endif %}
+        </article>
+      </div>
     {% endfor %}
   {% endfor %}
 {% else %}
@@ -31,6 +62,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
